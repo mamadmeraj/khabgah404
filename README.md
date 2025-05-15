@@ -21,6 +21,8 @@ npm i
 npm run dev
 ```
 
+<img src="./image.png" alt="Sample Image">
+
 Then open your browser at: [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
