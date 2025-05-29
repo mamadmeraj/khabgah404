@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import AstralBackground from '@/components/AstralBackground';
 import BookQuote from '@/components/BookQuote';
@@ -28,10 +27,10 @@ const Index = () => {
     <>
       <AstralBackground />
       
-      <div className="min-h-screen flex flex-col items-center justify-between px-4 py-8">
+      <div className="min-h-screen flex flex-col items-center justify-between px-2 sm:px-4 py-4 sm:py-8">
         <Header />
         
-        <div className="flex-1 w-full max-w-4xl flex items-center justify-center py-8">
+        <div className="flex-1 w-full max-w-full sm:max-w-xl md:max-w-4xl flex items-center justify-center py-8">
           <div className="relative w-full">
             {/* Navigation buttons for larger screens */}
             <div className="absolute top-1/2 -right-4 transform -translate-y-1/2 hidden md:block">

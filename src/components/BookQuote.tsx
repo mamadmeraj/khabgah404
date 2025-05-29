@@ -70,7 +70,7 @@ const BookQuote: React.FC<BookQuoteProps> = ({ id, quote, author, book, classNam
         <button 
           onClick={handleLike}
           className={cn(
-            "flex items-center gap-2 px-6 py-2 rounded-md transition-all",
+            "flex items-center gap-2 px-50 py-2 rounded-md transition-all",
             liked ? "text-astral-purple" : "text-white/70 hover:text-white"
           )}
         >
@@ -84,7 +84,7 @@ const BookQuote: React.FC<BookQuoteProps> = ({ id, quote, author, book, classNam
         <button 
           onClick={handleDislike}
           className={cn(
-            "flex items-center gap-2 px-6 py-2 rounded-md transition-all",
+            "flex items-center gap-2 px-50 py-2 rounded-md transition-all",
             disliked ? "text-astral-blue" : "text-white/70 hover:text-white"
           )}
         >
@@ -98,7 +98,7 @@ const BookQuote: React.FC<BookQuoteProps> = ({ id, quote, author, book, classNam
         <button 
           onClick={handleSave}
           className={cn(
-            "flex items-center gap-2 px-6 py-2 rounded-md transition-all",
+            "flex items-center gap-2 px-50 py-2 rounded-md transition-all",
             saved ? "text-astral-sky-blue" : "text-white/70 hover:text-white"
           )}
         >
